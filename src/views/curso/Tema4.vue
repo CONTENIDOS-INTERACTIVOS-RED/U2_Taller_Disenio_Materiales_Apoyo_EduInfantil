@@ -1,7 +1,9 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'2. Título tema'")
+  BannerInterno(:subTitulo="'4. Principios'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
+
+    p.mb-4 Durante el desarrollo de la unidad se han observado algunos elementos que hacen parte de esos principios que rigen los ambientes virtuales de aprendizaje.
 
     #t_2_1.titulo-segundo(data-aos="flip-up")
       h2 #[span 2.1] Subtítulo tema
