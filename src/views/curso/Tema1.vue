@@ -6,7 +6,7 @@
     p.mb-4 Durante esta segunda unidad, estaremos abordando el tema de los ambientes de aprendizaje, veremos su concepto, antecedentes, características, principios y estructura. Para iniciar preguntémonos:
 
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -14,7 +14,7 @@
             .col-lg
               h5.mb-0 ¿Qué diferencias se observan entre un aula tradicional y un entorno de aprendizaje digital?
 
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -62,10 +62,10 @@
     
     .bg-color-4.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.order-2
+        .col-lg-auto.order-lg-2.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema1/6.png', alt='')
-        .col-lg.order-1.mb-3.mb-lg-0
+        .col-lg.order-lg-1
           .p-4
             p.mb-0(data-aos="fade-up") Un ambiente de aprendizaje debe adaptarse a las necesidades y características del grupo de estudiantes, estableciendo una base sólida para una instrucción adecuada. Su principal reto es integrar todos los componentes necesarios para crear un sistema efectivo que promueva el aprendizaje autónomo e independiente, donde los estudiantes se responsabilizan de su propio proceso de aprendizaje.
     
@@ -88,10 +88,10 @@
         .row.justify-content-center.align-items-center
           .col-lg-12
             .row.justify-content-center.align-items-center
-              .col-lg-8(data-aos="fade-left").mb-3.mb-lg-0
+              .col-lg-8(data-aos="fade-left").order-2
                 p Por su parte, Duarte (2003), sustenta que, el ambiente se entiende como una construcción diaria que asegura la diversidad y enriquece la vida en relación con los seres humanos. El concepto de ambiente educativo se refiere a un sujeto que actúa y transforma al ser humano, implicando que diversas entidades como la ciudad, la escuela, la familia, y el barrio, desempeñan un rol educativo. Reflexionar sobre estos ambientes destinados al sano desarrollo de las personas, implica verlos como un tejido colectivo que promueve el aprendizaje y la educación.
 
-              .col-lg-4(data-aos="zoom-in")
+              .col-lg-4(data-aos="zoom-in").order-1.mb-3.mb-lg-0
                 img.img-fluid(src='@/assets/curso/tema1/9.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
     
     .row.mb-5
@@ -126,7 +126,7 @@
             p Según fuentes (2022), una de estas categorías son los ambientes físicos, que se refieren a todo lo que rodea a los estudiantes, incluyendo los materiales y contenidos del aula. Los maestros tienen la responsabilidad de adaptar los recursos disponibles al modelo de aprendizaje que se esté utilizando, asegurando así un entorno propicio para el desarrollo educativo. 
             ul.lista-ul--color
               li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right.bg-color-9
+                i.far.fa-arrow-alt-circle-right
                 p.mb-0 <b>Ejemplo.</b> Un aula de clase en una escuela secundaria, donde los estudiantes tienen acceso a pizarras interactivas, materiales didácticos y recursos impresos. Los maestros pueden reorganizar el espacio según las actividades del día, como trabajar en grupos o realizar experimentos científicos.
 
     
@@ -134,7 +134,7 @@
             p Los ambientes virtuales son otra categoría importante, que abarcan los espacios digitales que apoyan la educación a distancia. Estos ambientes permiten identificar las características de los estudiantes que aprenden de manera remota. Es fundamental que los materiales diseñados para estos espacios sean dinámicos e interactivos, facilitando así el estudio autónomo e independiente de los alumnos (Fuentes, 2022).
             ul.lista-ul--color
               li.mb-0.d-flex
-                i.far.fa-arrow-alt-circle-right.bg-color-9
+                i.far.fa-arrow-alt-circle-right
                 p <b>Ejemplo.</b> Una plataforma de e-learning como Moodle, donde los estudiantes pueden acceder a materiales de clase, participar en foros de discusión, realizar tareas y recibir retroalimentación de sus docentes en línea. Los cursos están diseñados para ser interactivos y adaptativos a las necesidades individuales de los estudiantes.
     
     p.mb-4 Dentro de los ambientes virtuales, encontramos las <b>plataformas de e-learning</b>. Estas plataformas, como Moodle y Blackboard, son entornos virtuales que permiten la gestión de cursos en línea. Facilitan la distribución de materiales, la realización de actividades y la interacción entre estudiantes y docentes, a través de:

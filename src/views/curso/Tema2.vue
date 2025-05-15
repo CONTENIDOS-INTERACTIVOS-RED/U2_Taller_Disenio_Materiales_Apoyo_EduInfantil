@@ -20,10 +20,10 @@
             p.mb-0 La evolución de los ambientes de aprendizaje, ha sido influenciada por varios hitos a lo largo de la historia. Siguiendo el recorrido histórico realizado por la licenciada María Angélica Alarcón (s/f), describiremos algunos de los momentos más significativos que han marcado esta evolución.
     
     .row.align-items-start.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/1.png", alt="").mb-4.mb-lg-0
-      .col-lg-8.mb-3.mb-lg-0.order-1
+      .col-lg-8.order-lg-1
     
         AcordionA(tipo="b")
           .div(titulo="Aulas tradicionales Parte 1")
@@ -121,7 +121,7 @@
         p Se incorporaron nuevas tecnologías y recursos interactivos que transformaron la dinámica de enseñanza y aprendizaje. Estos recursos incluyen:
 
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -130,7 +130,7 @@
               h5.mb-0 Videos educativos
               p Herramientas visuales que facilitaron la comprensión de conceptos complejos.
 
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto

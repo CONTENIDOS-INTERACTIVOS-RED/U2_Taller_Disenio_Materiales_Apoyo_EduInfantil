@@ -16,8 +16,8 @@
               p.mb-0 En este último tema, estaremos hablando de cuáles son esos elementos que se deben tener en cuenta a la hora de la planificación de un ambiente de aprendizaje; iniciemos con Tinoco (2014): para diseñar un ambiente de aprendizaje de calidad, es fundamental considerar diversos elementos y componentes. Según Duarte, el aula se convierte en el escenario donde se desarrollan interacciones significativas entre maestros y estudiantes. Por su parte, Viesca enfatiza la importancia de los contenidos, materiales y espacios necesarios para facilitar el aprendizaje, incluyendo áreas para la producción y exhibición de trabajos.
         p(data-aos="fade-left") Madrazo (2004), citado por Tinoco (2014), define un ambiente de aprendizaje a partir de cuatro espacios fundamentales: físico, social, disciplinar e institucional. Esta perspectiva se complementa con la propuesta de María Lina Iglesias Forneiro, quien presenta el ambiente de aprendizaje como una estructura compuesta por dimensiones: 
     
-    .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-6
+    .row.justify-content-center.align-items-stretch.mb-3
+      .col-lg-6.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -26,7 +26,7 @@
               h5.mb-2 Física
               p.mb-0 Que abarca el espacio.
 
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -35,7 +35,7 @@
               h5.mb-2 Funcional
               p.mb-0 Que se refiere al uso de los espacios.
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -44,7 +44,7 @@
               h5.mb-2 Temporal
               p.mb-0 Que se relaciona con la organización del tiempo.
 
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -162,28 +162,30 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Cuál es una característica clave de los ambientes de aprendizaje efectivos? ',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto:
+                  'Están estrictamente estructurados sin margen para la flexibilidad.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Promueven la individualidad sobre la colaboración. ',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto:
+                  'Fomentan la participación activa y el trabajo colaborativo. ',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Se enfocan únicamente en el aprendizaje teórico.',
                 esCorrecta: false,
               },
             ],
@@ -193,28 +195,29 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              '¿Qué principio fundamental es esencial para crear un ambiente de aprendizaje inclusivo? ',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'Evaluar únicamente los conocimientos teóricos. ',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
+                texto: 'Conocimiento profundo del alumnado. ',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto:
+                  'Utilizar un solo método de enseñanza para todos los estudiantes.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Evitar la interactividad en clase.',
                 esCorrecta: false,
               },
             ],
@@ -224,28 +227,28 @@ export default {
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              '¿Qué característica es importante para la organización espacial en un ambiente de aprendizaje? ',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'Uso limitado de tecnología educativa.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Espacios reducidos y cerrados. ',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Buena iluminación natural y ventilación. ',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Eliminación de cualquier tipo de decoración.',
                 esCorrecta: false,
               },
             ],
@@ -254,28 +257,29 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              '¿Qué aspecto es fundamental en la diversificación de los contenidos educativos? ',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'Limitar el acceso a recursos didácticos. ',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Proveer un único tipo de material educativo. ',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Usar materiales auxiliares atractivos y variados',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Fomentar la competencia entre estudiantes.',
                 esCorrecta: false,
               },
             ],
@@ -285,28 +289,31 @@ export default {
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              '¿Qué papel desempeña la tecnología en los ambientes de aprendizaje modernos? ',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'Limitar la interacción entre estudiantes y docentes. ',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
+                texto:
+                  'Facilitar el acceso a recursos didácticos variados y estimulantes. ',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto:
+                  'Fomentar la memorización de contenidos sin comprensión. ',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto:
+                  'Mantener métodos tradicionales de enseñanza sin cambios.',
                 esCorrecta: false,
               },
             ],
